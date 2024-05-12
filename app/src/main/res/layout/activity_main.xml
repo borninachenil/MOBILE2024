@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cbo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue dans l'application de dessin"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/inscrire_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mondrawable"
+        android:text="S'inscrire"
+        android:textColorLink="@color/_3b20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rechercher_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="55dp"
+        android:text="Rechercher dessin"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/mondrawable"/>
+
+    <Button
+        android:id="@+id/publier_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer dessin"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="55dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/mondrawable"/>
+</LinearLayout>

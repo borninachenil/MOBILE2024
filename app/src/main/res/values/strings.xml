@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjetImage</string>
+    <string-array name="thickness_options">
+        <item>Fin</item>
+        <item>Normale</item>
+        <item>Épais</item>
+    </string-array>
+    <string-array name="col">
+        <item>noir</item>
+        <item>rouge</item>
+        <item>orange</item>
+        <item>jaune</item>
+        <item>vert</item>
+        <item>bleu</item>
+        <item>violet</item>
+    </string-array>
+</resources>
